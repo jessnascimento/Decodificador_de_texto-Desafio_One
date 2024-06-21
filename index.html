@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio One - Decodificador de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="assets/Logo.png" id="logo" alt="Logo da alura">
+    </header>
+    <main>
+        <div class="container">
+            <div class="container_texto">
+                <input type="text" min="1" max="100" class="container__input " placeholder="Digite seu texto">
+            </div>
+            <div class="container_foto">
+                <img src="assets/foto.png" id="foto" alt="Foto">
+            </div>
+        </div>
+        <div class="container__botoes">
+            <p>Apenas letras minusculas e sem acento</p>
+            <button onclick="verificarChute()" class="container__botao">Criptografar</button>
+            <button onclick="reiniciarJogo()" id="reiniciar" class="container__botao" disabled>Descriptografar</button>
+        </div>
+    </main>
+    <footer>
+        <div>
+            Desenvolvido por - Jessica Nascimento
+        </div>
+    </footer>
+</body>
+<script src="script.js" defer></script>
+</html>

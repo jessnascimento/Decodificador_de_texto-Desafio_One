@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    background-color: #CCC5B9;
+}
+
+header {
+    margin: 20px;
+}
+
+.container{
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os itens no contêiner */
+    height: 100vh; /* Altura total da visualização */
+    padding: 0 20px; /* Espaçamento horizontal, ajuste conforme necessário */
+}
+
+/* Estilo para o contêiner de texto */
+.container_texto {
+    flex: 1; /* Ocupa o espaço disponível */
+    display: flex;
+    justify-content: flex-start; /* Alinha o input à esquerda */
+}
+
+/* Estilo para o input */
+.container__input {
+    width: 100%; /* Ocupa toda a largura do contêiner de texto */
+    padding: 10px; /* Espaçamento interno do input */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Remove a borda do input */
+    outline: none; /* Remove o contorno padrão */
+}
+
+.container__input::placeholder {
+    color: #0A3871; /* Cor do texto do placeholder */
+    font-style: italic; /* Estilo do texto do placeholder */
+}
+
+/* Estilo para o retângulo à direita */
+.container_foto {
+    display: flex;
+    justify-content: center; /* Centraliza a imagem horizontalmente dentro do retângulo */
+    align-items: center; /* Centraliza a imagem verticalmente dentro do retângulo */
+    width: 500px; /* Largura do retângulo, ajuste conforme necessário */
+    height: 800px; /* Altura do retângulo, ajuste conforme necessário */
+    background-color: #ffff; /* Cor de fundo do retângulo, ajuste conforme necessário */
+    border-radius: 20px; /* Arredonda os cantos do retângulo */
+}
+
+/* Estilo para a imagem */
+#foto {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
